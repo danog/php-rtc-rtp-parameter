@@ -1,7 +1,7 @@
 {
     "name": "danog/php-rtc-rtp-parameter",
     "type": "library",
-    "description": "RTP parameters define the configuration of a media stream in Real-time Transport Protocol, including codec information, payload types, SSRCs, header extensions, and RTCP settings. Fork with FFI made optional and a pure-PHP DTLS/SRTP stack, maintained for MadelineProto.",
+    "description": "RTP codec, payload, SSRC, header-extension, and RTCP parameter objects. MadelineProto's PHP 8.2+ fork supports the modular danog/php-rtc stack.",
     "keywords": [
         "webrtc",
         "rtp-parameter",

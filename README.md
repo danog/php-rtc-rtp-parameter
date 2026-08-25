@@ -1,15 +1,19 @@
 # RTP Parameters
 
-![PHP Version](https://img.shields.io/badge/PHP-8.4%2B-blue)
+![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 RTP parameters define the configuration of a media stream in Real-time Transport Protocol, including codec information, payload types, SSRCs, header extensions, and RTCP settings.
 
-## Requirements
+## About this fork
+
+This is the `danog/php-rtc-rtp-parameter` PHP 8.2+ fork used by MadelineProto. It is published separately from upstream and declares that it replaces `quasarstream/rtp-parameter`.
+
+The forked stack keeps the upstream `quasarstream/*` dependency constraints for compatibility. Each `danog/php-rtc-*` package replaces its upstream counterpart, so consumers select the complete maintained stack by requiring the corresponding danog packages together.
 
 ## Requirements
 
-- **PHP ≥ 8.4** 
+- **PHP ≥ 8.2**
 
 ## Documentation
 
