@@ -25,15 +25,12 @@
     ],
     "require": {
         "php": "^8.2",
-        "quasarstream/mixin": "^1.0"
+        "danog/php-rtc-mixin": "^1.0"
     },
     "autoload": {
         "psr-4": {
             "Webrtc\\RTPParameter\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "replace": {
-        "quasarstream/rtp-parameter": "self.version"
-    }
+    "minimum-stability": "dev"
 }
