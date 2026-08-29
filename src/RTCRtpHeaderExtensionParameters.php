@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpHeaderExtensionParameters
+final readonly class RTCRtpHeaderExtensionParameters
 {
     /**
      * @param int $id The value that goes in the packet.

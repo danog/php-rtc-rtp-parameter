@@ -14,7 +14,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-class RTCRtpReceiveParameters extends RTCRtpParameters
+final class RTCRtpReceiveParameters extends RTCRtpParameters
 {
     /**
      * @param RTCRtpCodecParameters[] $codecs An array of `RTCRtpCodecParameters` to send or receive.

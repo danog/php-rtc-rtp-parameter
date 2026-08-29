@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpCapabilities
+final readonly class RTCRtpCapabilities
 {
     /**
      * @param RTCRtpCodecCapability[] $codecs An array of `RTCRtpCodecCapability`.

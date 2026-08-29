@@ -18,7 +18,7 @@ use Webrtc\Mixin\DataClass;
  * information about a synchronization source (SSRC).
  */
 #[DataClass]
-readonly class RTCRtpSynchronizationSource
+final readonly class RTCRtpSynchronizationSource
 {
     /**
      * @param DateTimeImmutable $timestamp The timestamp associated with this source.

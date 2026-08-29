@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-class RTCRtpCodecParameters
+final class RTCRtpCodecParameters
 {
     /**
      * @param string $mimeType The codec MIME media type/subtype, for instance `'audio/PCMU'`.

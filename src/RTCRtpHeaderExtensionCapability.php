@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpHeaderExtensionCapability
+final readonly class RTCRtpHeaderExtensionCapability
 {
     /**
      * @param string $uri The URI of the RTP header extension.

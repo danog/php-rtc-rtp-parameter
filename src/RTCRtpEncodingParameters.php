@@ -14,7 +14,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpEncodingParameters extends RTCRtpCodingParameters
+final readonly class RTCRtpEncodingParameters extends RTCRtpCodingParameters
 {
 
 }

@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-class RTCRtcpParameters
+final class RTCRtcpParameters
 {
     /**
      * @param string|null $cname The Canonical Name (CNAME) used by RTCP.

@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpRtxParameters
+final readonly class RTCRtpRtxParameters
 {
     /**
      * @param int $ssrc The Synchronization Source identifier.

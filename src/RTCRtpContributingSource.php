@@ -15,7 +15,7 @@ use DateTime;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpContributingSource
+final readonly class RTCRtpContributingSource
 {
     /**
      * @param DateTime $timestamp The timestamp associated with this source.

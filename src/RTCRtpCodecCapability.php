@@ -14,7 +14,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtpCodecCapability
+final readonly class RTCRtpCodecCapability
 {
     /**
      * @param string $mimeType The codec MIME media type/subtype, for instance `'audio/PCMU'`.

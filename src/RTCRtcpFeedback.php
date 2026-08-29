@@ -13,7 +13,7 @@ namespace Webrtc\RTPParameter;
 use Webrtc\Mixin\DataClass;
 
 #[DataClass]
-readonly class RTCRtcpFeedback
+final readonly class RTCRtcpFeedback
 {
     /**
      * @param string $type The type of feedback
