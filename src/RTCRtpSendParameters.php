@@ -21,7 +21,7 @@ final class RTCRtpSendParameters extends RTCRtpParameters
      * @param RTCRtpHeaderExtensionParameters[] $headerExtensions An array of `RTCRtpHeaderExtensionParameters`.
      * @param string $muxId The muxId assigned to the RTP stream, if any, empty string if unset.
      * @param RTCRtcpParameters $rtcp Parameters to configure RTCP.
-     * @param RTCRtpDecodingParameters[] $encodings An array of `RTCRtpDecodingParameters`
+     * @param RTCRtpEncodingParameters[] $encodings An array of `RTCRtpEncodingParameters`
      */
     public function __construct(
         array             $codecs = [],
